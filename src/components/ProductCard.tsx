@@ -46,7 +46,7 @@ const ProductCard = ({ id, name, price, image, rating, category }: ProductCardPr
           ))}
           <span className="text-sm text-muted-foreground ml-2">({rating})</span>
         </div>
-        <p className="text-2xl font-bold text-primary">${price.toFixed(2)}</p>
+        <p className="text-2xl font-bold text-primary">€{price.toFixed(2)}</p>
       </CardContent>
       <CardFooter className="p-4 pt-0">
         <Button className="w-full" variant="default">

@@ -9,74 +9,24 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { Search } from "lucide-react";
 
 const Products = () => {
-  const [priceRange, setPriceRange] = useState([0, 500]);
+  const [priceRange, setPriceRange] = useState([0, 10]);
   const [searchQuery, setSearchQuery] = useState("");
 
   const products = [
     {
       id: 1,
-      name: "Solar-Powered Audio Recorder Pro",
-      price: 299.99,
-      image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop",
+      name: "Compact Solar Audio Recorder",
+      price: 3.00,
+      image: "https://images.unsplash.com/photo-1611532736579-6b16e2b50449?w=500&h=500&fit=crop",
       rating: 4.8,
       category: "Recording",
       brand: "TechPro",
       type: "Audio Recorder",
     },
-    {
-      id: 2,
-      name: "Portable Solar Battery Pack",
-      price: 149.99,
-      image: "https://images.unsplash.com/photo-1620912048005-3c0d95f3e0b2?w=500&h=500&fit=crop",
-      rating: 4.6,
-      category: "Power",
-      brand: "SolarMax",
-      type: "Battery",
-    },
-    {
-      id: 3,
-      name: "Digital Voice Recorder Mini",
-      price: 89.99,
-      image: "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=500&h=500&fit=crop",
-      rating: 4.7,
-      category: "Recording",
-      brand: "TechPro",
-      type: "Audio Recorder",
-    },
-    {
-      id: 4,
-      name: "Solar Charging Station Hub",
-      price: 199.99,
-      image: "https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?w=500&h=500&fit=crop",
-      rating: 4.9,
-      category: "Power",
-      brand: "SolarMax",
-      type: "Charger",
-    },
-    {
-      id: 5,
-      name: "Professional Field Recorder",
-      price: 399.99,
-      image: "https://images.unsplash.com/photo-1611532736579-6b16e2b50449?w=500&h=500&fit=crop",
-      rating: 4.9,
-      category: "Recording",
-      brand: "TechPro",
-      type: "Audio Recorder",
-    },
-    {
-      id: 6,
-      name: "Compact Solar Panel Kit",
-      price: 249.99,
-      image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=500&h=500&fit=crop",
-      rating: 4.5,
-      category: "Power",
-      brand: "SolarMax",
-      type: "Solar Panel",
-    },
   ];
 
-  const brands = ["TechPro", "SolarMax"];
-  const types = ["Audio Recorder", "Battery", "Charger", "Solar Panel"];
+  const brands = ["TechPro"];
+  const types = ["Audio Recorder"];
 
   return (
     <div className="min-h-screen bg-background">
@@ -109,13 +59,13 @@ const Products = () => {
               {/* Price Range */}
               <div>
                 <Label className="text-base font-semibold mb-3 block">
-                  Price Range: ${priceRange[0]} - ${priceRange[1]}
+                  Price Range: €{priceRange[0]} - €{priceRange[1]}
                 </Label>
                 <Slider
                   value={priceRange}
                   onValueChange={setPriceRange}
-                  max={500}
-                  step={10}
+                  max={10}
+                  step={1}
                   className="mt-4"
                 />
               </div>
