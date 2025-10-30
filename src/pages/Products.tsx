@@ -9,14 +9,14 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { Search } from "lucide-react";
 
 const Products = () => {
-  const [priceRange, setPriceRange] = useState([0, 10]);
+  const [priceRange, setPriceRange] = useState([0, 25]);
   const [searchQuery, setSearchQuery] = useState("");
 
   const products = [
     {
       id: 1,
       name: "Compact Solar Audio Recorder",
-      price: 3.00,
+      price: 19.99,
       image: "https://images.unsplash.com/photo-1611532736579-6b16e2b50449?w=500&h=500&fit=crop",
       rating: 4.8,
       category: "Recording",
@@ -64,7 +64,7 @@ const Products = () => {
                 <Slider
                   value={priceRange}
                   onValueChange={setPriceRange}
-                  max={10}
+                  max={25}
                   step={1}
                   className="mt-4"
                 />

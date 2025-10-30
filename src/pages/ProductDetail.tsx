@@ -13,7 +13,7 @@ const ProductDetail = () => {
   const product = {
     id: 1,
     name: "Solar-Powered Audio Recorder Pro",
-    price: 299.99,
+    price: 19.99,
     image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&h=800&fit=crop",
     images: [
       "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&h=800&fit=crop",
@@ -107,7 +107,7 @@ const ProductDetail = () => {
             </div>
 
             <div className="flex items-baseline space-x-2">
-              <span className="text-4xl font-bold text-primary">${product.price}</span>
+              <span className="text-4xl font-bold text-primary">€{product.price}</span>
               {product.inStock ? (
                 <Badge className="bg-green-500">In Stock</Badge>
               ) : (
