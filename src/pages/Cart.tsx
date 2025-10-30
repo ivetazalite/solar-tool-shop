@@ -25,10 +25,21 @@ const Cart = () => {
     },
   ];
 
-  const subtotal = cartItems.reduce((sum, item) => sum + item.price * item.quantity, 0);
+  const cartCalculations = cartItems.reduce((acc, item) => {
+    const basePrice = item.price * item.quantity;
+    const discount = item.quantity >= 2 ? 0.1 : 0; // 10% discount for 2 or more items
+    const discountAmount = basePrice * discount;
+    return {
+      subtotal: acc.subtotal + basePrice,
+      totalDiscount: acc.totalDiscount + discountAmount
+    };
+  }, { subtotal: 0, totalDiscount: 0 });
+
+  const { subtotal, totalDiscount } = cartCalculations;
+  const discountedSubtotal = subtotal - totalDiscount;
   const shipping = 0; // Free shipping
-  const tax = subtotal * 0.1; // 10% tax
-  const total = subtotal + shipping + tax;
+  const tax = discountedSubtotal * 0.1; // 10% tax
+  const total = discountedSubtotal + shipping + tax;
 
   if (cartItems.length === 0) {
     return (
@@ -123,6 +134,10 @@ const Cart = () => {
                 <div className="flex justify-between">
                   <span className="text-muted-foreground">Tax</span>
                   <span className="font-semibold">${tax.toFixed(2)}</span>
+                </div>
+                <div className="flex justify-between">
+                  <span className="text-muted-foreground">Discount</span>
+                  <span className="font-semibold text-green-600">-${totalDiscount.toFixed(2)}</span>
                 </div>
                 <Separator />
                 <div className="flex justify-between text-lg">
