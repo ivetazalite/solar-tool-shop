@@ -12,16 +12,16 @@ const Cart = () => {
     {
       id: 1,
       name: "Solar-Powered Audio Recorder Pro",
-      price: 299.99,
+      price: 19.99,
       quantity: 1,
-      image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=200&h=200&fit=crop",
+      image: "https://www.simracingbay.com/wp-content/uploads/2024/05/sc_link_product-web.png?w=800&h=800&fit=crop",
     },
     {
       id: 2,
-      name: "Portable Solar Battery Pack",
-      price: 149.99,
+      name: "Solar-Powered Audio Recorder Pro",
+      price: 39.98,
       quantity: 2,
-      image: "https://images.unsplash.com/photo-1620912048005-3c0d95f3e0b2?w=200&h=200&fit=crop",
+      image: "https://www.simracingbay.com/wp-content/uploads/2024/05/sc_link_product-web.png?w=800&h=800&fit=crop",
     },
   ];
 
