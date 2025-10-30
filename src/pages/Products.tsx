@@ -17,7 +17,7 @@ const Products = () => {
       id: 1,
       name: "Compact Solar Audio Recorder",
       price: 19.99,
-      image: "https://images.unsplash.com/photo-1611532736579-6b16e2b50449?w=500&h=500&fit=crop",
+      image: "https://www.simracingbay.com/wp-content/uploads/2024/05/sc_link_product-web.png?w=800&h=800&fit=crop",
       rating: 4.8,
       category: "Recording",
       brand: "TechPro",
