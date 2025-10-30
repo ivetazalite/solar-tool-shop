@@ -14,9 +14,9 @@ const ProductDetail = () => {
     id: 1,
     name: "Solar-Powered Audio Recorder Pro",
     price: 19.99,
-    image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&h=800&fit=crop",
+    image: "https://www.simracingbay.com/wp-content/uploads/2024/05/sc_link_product-web.png?w=800&h=800&fit=crop",
     images: [
-      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&h=800&fit=crop",
+      "https://www.simracingbay.com/wp-content/uploads/2024/05/sc_link_product-web.png?w=800&h=800&fit=crop",
       "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=800&h=800&fit=crop",
       "https://images.unsplash.com/photo-1611532736579-6b16e2b50449?w=800&h=800&fit=crop",
     ],
