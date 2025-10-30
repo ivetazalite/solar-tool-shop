@@ -125,6 +125,9 @@ const ProductDetail = () => {
               <Button size="lg" variant="outline" className="w-full">
                 Buy Now
               </Button>
+              <Button size="lg" variant="secondary" className="w-full">
+                Upload Sound Files
+              </Button>
             </div>
 
             <div className="grid grid-cols-3 gap-4 pt-6 border-t border-border">
