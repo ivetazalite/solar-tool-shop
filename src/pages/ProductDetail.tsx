@@ -17,7 +17,7 @@ const ProductDetail = () => {
     image: "https://www.simracingbay.com/wp-content/uploads/2024/05/sc_link_product-web.png?w=800&h=800&fit=crop",
     images: [
       "https://www.simracingbay.com/wp-content/uploads/2024/05/sc_link_product-web.png?w=800&h=800&fit=crop",
-      "https://m.media-amazon.com/images/I/613JavmxToS._AC_SL1500_.jpg?w=800&h=800&fit=crop",
+      "https://simplycoolgift.com/cdn/shop/products/ButterflyKisses_2_576x.jpg?v=1647458874",
       "https://media.discordapp.net/attachments/1431212623193575534/1433737091241607168/Man_in_Cemetery_with_Portable_Speaker.png?ex=6905c738&is=690475b8&hm=672bb7d4f5cafa63ea4fa0c65ca7c754de4e4a497497588bd4864ecda9739825&=&format=webp&quality=lossless&width=613&height=920",
     ],
     rating: 4.8,
