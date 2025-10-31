@@ -45,9 +45,8 @@ Whether you’re a professional craftsman or a passionate DIY creator, TombRaidi
         <Card className="p-12 mb-16 bg-gradient-to-br from-primary/5 to-accent/5 border-primary/20">
           <h2 className="text-3xl font-bold text-center mb-6">Our Mission</h2>
           <p className="text-lg text-center text-muted-foreground max-w-2xl mx-auto">
-            To revolutionize the hardware tools industry by creating innovative, solar-powered
-            devices that empower professionals to work anywhere, anytime, without compromising
-            on quality or environmental impact.
+            We strive to help our customers craft meaningful spaces and lasting memorials by delivering products that stand the test of time.
+Through innovation and quality, we aim to bridge tradition with technology—providing tools that not only build structures but also preserve stories and legacies for generations to come.
           </p>
         </Card>
 
@@ -74,28 +73,14 @@ Whether you’re a professional craftsman or a passionate DIY creator, TombRaidi
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl font-bold mb-6">Our Story</h2>
           <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
+            <p className="text-lg text-center text-muted-foreground max-w-2xl mx-auto"></p>
             <p>
-              Hardware Tools was founded in 2020 by a team of engineers and environmental
-              advocates who shared a vision: to create professional-grade tools that harness
-              the power of the sun. What started as a small workshop in California has grown
-              into a leading innovator in sustainable technology.
-            </p>
+              TombRaidio was born in Latvia on October 31, 2025, with a vision to redefine how we honor memories and build lasting legacies. What started as an idea—to merge traditional craftsmanship with modern technology—has grown into a brand dedicated to providing premium hardware tools and innovative solutions for memorial spaces.
+            </p>            
             <p>
-              Our flagship product, the Solar-Powered Audio Recorder Pro, revolutionized field
-              recording by eliminating the need for disposable batteries while maintaining
-              studio-quality performance. This breakthrough technology earned us recognition
-              from industry leaders and environmental organizations alike.
-            </p>
-            <p>
-              Today, we continue to expand our product line, always guided by our core
-              commitment to sustainability, innovation, and uncompromising quality. Every
-              device we create is designed to last, perform, and minimize environmental impact.
-            </p>
-            <p>
-              We're proud to serve a growing community of professionals who refuse to choose
-              between performance and responsibility. Join us in building a more sustainable
-              future, one innovative tool at a time.
-            </p>
+              We believe that every story deserves to be remembered. 
+              That’s why TombRaidio combines durable tools with cutting-edge tech, empowering builders and creators to craft spaces that stand the test of time. From the heart of Latvia, we are proud to serve those who value quality, respect, and innovation.
+            </p>            
           </div>
         </div>
 
