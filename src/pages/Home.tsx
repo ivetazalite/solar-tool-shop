@@ -24,9 +24,6 @@ const Home = () => {
           <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/60" />
         </div>
         <div className="relative z-10 container mx-auto px-4 text-center">
-          <div className="inline-block mb-4 px-4 py-2 rounded-full bg-accent/10 text-accent font-semibold text-sm">
-            🎉 New Arrival: Solar-Powered Recording Devices
-          </div>
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-foreground">
            TombRaidio 
           </h1>
