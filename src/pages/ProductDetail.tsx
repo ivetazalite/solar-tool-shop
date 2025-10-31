@@ -25,8 +25,7 @@ const ProductDetail = () => {
     category: "Recording Equipment",
     brand: "TechPro",
     inStock: true,
-    description:
-      "Professional-grade audio recorder with integrated solar charging technology. Perfect for field recording, journalism, and outdoor content creation. Features high-quality microphones and up to 48 hours of continuous recording on a single solar charge.",
+  description: "The TombRaidio Remembrance Player is a solar-powered audio device designed to preserve and replay cherished memories at a burial site. This compact black device lets loved ones hear pre-recorded messages, stories, or tributes—ensuring that every voice and memory endures beyond time. Engineered for outdoor use, the Remembrance Player features weather-resistant construction, intuitive playback controls, and a solar powered battery. Visitors can activate it with a simple touch or motion sensor, allowing personal recordings to fill the space with warmth and connection.",
     features: [
       "Solar-powered with 48-hour battery life",
       "Professional XLR inputs",
