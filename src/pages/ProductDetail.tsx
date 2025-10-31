@@ -12,7 +12,7 @@ const ProductDetail = () => {
   // Mock product data
   const product = {
     id: 1,
-    name: "Solar-Powered Audio Recorder Pro",
+    name: "TombRaidio Remembrance Player",
     price: 19.99,
     image: "https://www.simracingbay.com/wp-content/uploads/2024/05/sc_link_product-web.png?w=800&h=800&fit=crop",
     images: [
