@@ -7,7 +7,6 @@ import heroBanner from "@/assets/hero-banner.jpg";
 const Home = () => {
   const categories = [
     { name: "Solar Devices", icon: Leaf, description: "Eco-friendly power solutions" },
-    { name: "Recording Equipment", icon: Zap, description: "Professional audio tools" },
     { name: "Smart Tools", icon: Shield, description: "Advanced tech hardware" },
   ];
 
