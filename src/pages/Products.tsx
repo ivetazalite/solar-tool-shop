@@ -1,15 +1,11 @@
 import { useState } from "react";
 import Navigation from "@/components/Navigation";
 import ProductCard from "@/components/ProductCard";
-import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { Slider } from "@/components/ui/slider";
-import { Checkbox } from "@/components/ui/checkbox";
 import { Search } from "lucide-react";
 
 const Products = () => {
-  const [priceRange, setPriceRange] = useState([0, 25]);
   const [searchQuery, setSearchQuery] = useState("");
 
   const products = [
@@ -25,9 +21,6 @@ const Products = () => {
     },
   ];
 
-  const brands = ["TechPro"];
-  const types = ["Audio Recorder"];
-
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
@@ -38,7 +31,7 @@ const Products = () => {
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
           {/* Filters Sidebar */}
           <aside className="lg:col-span-1 space-y-6">
-            <div className="bg-card border border-border rounded-xl p-6 space-y-6">
+            <div className="bg-card border border-border rounded-xl p-6">
               {/* Search */}
               <div>
                 <Label htmlFor="search" className="text-base font-semibold mb-3 block">
@@ -55,60 +48,6 @@ const Products = () => {
                   />
                 </div>
               </div>
-
-              {/* Price Range */}
-              <div>
-                <Label className="text-base font-semibold mb-3 block">
-                  Price Range: €{priceRange[0]} - €{priceRange[1]}
-                </Label>
-                <Slider
-                  value={priceRange}
-                  onValueChange={setPriceRange}
-                  max={25}
-                  step={1}
-                  className="mt-4"
-                />
-              </div>
-
-              {/* Brand Filter */}
-              <div>
-                <Label className="text-base font-semibold mb-3 block">Brand</Label>
-                <div className="space-y-3">
-                  {brands.map((brand) => (
-                    <div key={brand} className="flex items-center space-x-2">
-                      <Checkbox id={brand} />
-                      <label
-                        htmlFor={brand}
-                        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer"
-                      >
-                        {brand}
-                      </label>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              {/* Type Filter */}
-              <div>
-                <Label className="text-base font-semibold mb-3 block">Type</Label>
-                <div className="space-y-3">
-                  {types.map((type) => (
-                    <div key={type} className="flex items-center space-x-2">
-                      <Checkbox id={type} />
-                      <label
-                        htmlFor={type}
-                        className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer"
-                      >
-                        {type}
-                      </label>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              <Button variant="outline" className="w-full">
-                Reset Filters
-              </Button>
             </div>
           </aside>
 
