@@ -21,9 +21,9 @@ const Navigation = () => {
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2">
             <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">HT</span>
+              <span className="text-primary-foreground font-bold text-lg">TR</span>
             </div>
-            <span className="text-xl font-bold text-foreground">Hardware Tools</span>
+            <span className="text-xl font-bold text-foreground">TombRaidio</span>
           </Link>
 
           {/* Desktop Navigation */}

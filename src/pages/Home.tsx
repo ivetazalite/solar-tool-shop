@@ -78,7 +78,7 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
-              <h3 className="font-bold text-lg mb-4">Hardware Tools</h3>
+              <h3 className="font-bold text-lg mb-4">TombRaidio</h3>
               <p className="text-muted-foreground">
                 Premium tech hardware with eco-friendly solar solutions.
               </p>
@@ -122,7 +122,7 @@ const Home = () => {
             </div>
           </div>
           <div className="mt-8 pt-8 border-t border-border text-center text-muted-foreground">
-            <p>&copy; 2025 Hardware Tools. All rights reserved.</p>
+            <p>&copy; 2025 TombRaidio. All rights reserved.</p>
           </div>
         </div>
       </footer>

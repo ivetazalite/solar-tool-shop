@@ -33,7 +33,7 @@ const About = () => {
       <div className="container mx-auto px-4 py-16">
         {/* Hero Section */}
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <h1 className="text-5xl font-bold mb-6">About Hardware Tools</h1>
+          <h1 className="text-5xl font-bold mb-6">About TombRaidio</h1>
           <p className="text-xl text-muted-foreground leading-relaxed">
             At TombRaidio, we believe in building more than structures—we build legacies. Our mission is to provide high-quality hardware tools and innovative solutions that help you create lasting memorials and meaningful spaces.
 From durable construction tools to advanced technology for remembrance, TombRaidio combines strength, precision, and modern design. Every product we offer is crafted to support your projects with reliability and respect, ensuring that what you build today stands the test of time.
