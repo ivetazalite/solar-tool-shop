@@ -35,9 +35,9 @@ const About = () => {
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h1 className="text-5xl font-bold mb-6">About Hardware Tools</h1>
           <p className="text-xl text-muted-foreground leading-relaxed">
-            We're pioneering the future of hardware technology by combining innovative design
-            with sustainable solar power. Since 2020, we've been empowering professionals and
-            enthusiasts with tools that don't compromise on performance or environmental responsibility.
+            At TombRaidio, we believe in building more than structures—we build legacies. Our mission is to provide high-quality hardware tools and innovative solutions that help you create lasting memorials and meaningful spaces.
+From durable construction tools to advanced technology for remembrance, TombRaidio combines strength, precision, and modern design. Every product we offer is crafted to support your projects with reliability and respect, ensuring that what you build today stands the test of time.
+Whether you’re a professional craftsman or a passionate DIY creator, TombRaidio is your trusted partner for tools that honor stories beyond life.
           </p>
         </div>
 

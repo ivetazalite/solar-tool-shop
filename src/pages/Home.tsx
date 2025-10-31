@@ -28,10 +28,10 @@ const Home = () => {
             🎉 New Arrival: Solar-Powered Recording Devices
           </div>
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-            Innovation Powered by Nature
+           TombRaidio 
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Premium hardware tools and recording equipment with cutting-edge solar technology
+            Hardware for Timeless Connections
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Button variant="hero" size="lg" asChild>
