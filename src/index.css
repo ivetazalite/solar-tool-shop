@@ -32,8 +32,8 @@ All colors MUST be HSL.
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 220 13% 90%;
-    --input: 220 13% 90%;
+    --border: 30 80% 45%;
+    --input: 30 80% 45%;
     --ring: 186 85% 42%;
 
     --radius: 0.75rem;
@@ -86,8 +86,8 @@ All colors MUST be HSL.
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 220 15% 20%;
-    --input: 220 15% 20%;
+    --border: 30 80% 45%;
+    --input: 30 80% 45%;
     --ring: 186 85% 42%;
     
     --gradient-hero: linear-gradient(135deg, hsl(186, 85%, 35%), hsl(200, 80%, 40%));
